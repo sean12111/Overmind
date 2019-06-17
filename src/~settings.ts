@@ -16,8 +16,8 @@ export const MUON = 'Muon';
 /**
  * Your username - you shouldn't need to change this.
  */
-export const MY_USERNAME: string = getUsername();
-
+//export const MY_USERNAME: string = getUsername();
+export const MY_USERNAME = 'Kaldri';
 /**
  * Enable this to build from source including screeps-profiler. (This is separate from Overmind-Profiler.)
  */
@@ -45,8 +45,8 @@ export const USE_TRY_CATCH: boolean = true;
  * Operation will be penalized by skipping every 3rd tick for using a signature that does not contain the substring
  * "overmind" or the small-caps variant.
  */
-const OVERMIND_PLAIN = 'Overmind';
-export const OVERMIND_SMALL_CAPS = '\u1D0F\u1D20\u1D07\u0280\u1D0D\u026A\u0274\u1D05';
+const OVERMIND_PLAIN = 'kaldri';
+export const OVERMIND_SMALL_CAPS = 'kaldri';
 export const DEFAULT_OVERMIND_SIGNATURE = leftAngleQuote + OVERMIND_SMALL_CAPS + rightAngleQuote;
 global.__DEFAULT_OVERMIND_SIGNATURE__ = DEFAULT_OVERMIND_SIGNATURE;
 
